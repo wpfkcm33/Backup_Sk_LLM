@@ -102,6 +102,7 @@ pip install fastapi uvicorn pandas oracledb httpx
 # 환경변수 설정 (선택사항)
 export TEST_MODE=true  # 테스트 모드 활성화
 export API_KEY=your_llm_api_key
+set TEST_MODE=true && uvicorn main:app --reload --port 8000
 
 # 서버 실행
 python main.py
