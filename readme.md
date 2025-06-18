@@ -111,7 +111,8 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 ### 프론트엔드 설정
 ```bash
-# 의존성 설치
+# 의존성 설치(frontend 위치)
+cd frontend
 npm install
 
 # 개발 서버 실행
