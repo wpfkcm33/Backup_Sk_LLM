@@ -1,0 +1,90 @@
+{
+  "id": "preset_20250618_191605_8d970806",
+  "name": "재고1",
+  "description": "",
+  "tab_id": "tab2",
+  "created_at": "2025-06-18T19:16:05.817873",
+  "updated_at": "2025-06-18T19:16:05.817880",
+  "grid_config": {
+    "layout": "grid-cols-2",
+    "charts": [
+      {
+        "position": 0,
+        "source": {
+          "type": "inline_data",
+          "chart_data": {
+            "id": "tab2_chart_1",
+            "config": {
+              "type": "bar",
+              "data": {
+                "labels": [
+                  "액세서리",
+                  "저장장치",
+                  "전자제품"
+                ],
+                "datasets": [
+                  {
+                    "label": "count",
+                    "data": [
+                      3,
+                      3,
+                      4
+                    ],
+                    "backgroundColor": "#3498db",
+                    "borderColor": "#3498db",
+                    "borderWidth": 1
+                  }
+                ]
+              },
+              "options": {
+                "responsive": true,
+                "maintainAspectRatio": false,
+                "plugins": {
+                  "legend": {
+                    "display": true,
+                    "position": "top"
+                  },
+                  "tooltip": {
+                    "enabled": true
+                  },
+                  "title": {
+                    "display": true,
+                    "text": "카테고리별 제품 수"
+                  }
+                },
+                "scales": {
+                  "y": {
+                    "beginAtZero": true
+                  }
+                }
+              }
+            },
+            "raw_data": [
+              {
+                "category": "액세서리",
+                "count": 3
+              },
+              {
+                "category": "저장장치",
+                "count": 3
+              },
+              {
+                "category": "전자제품",
+                "count": 4
+              }
+            ]
+          }
+        }
+      },
+      {
+        "position": 1,
+        "source": {
+          "type": "query_reference",
+          "query_id": "20250618_191556_8c51174c",
+          "title": "상위 10개 제품의 재고 현황",
+          "custom_options": {}
+        }
+      }
+    ]
+  }
+}

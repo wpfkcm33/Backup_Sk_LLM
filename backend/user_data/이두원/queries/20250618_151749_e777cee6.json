@@ -1,0 +1,71 @@
+{
+  "id": "20250618_151749_e777cee6",
+  "timestamp": "2025-06-18T15:17:49.372483",
+  "tab_id": "tab1",
+  "question": "카테고리별 매출 분석해줘",
+  "response": {
+    "success": true,
+    "chart_request": 1,
+    "chart_config": {
+      "type": "doughnut",
+      "data": {
+        "labels": [
+          "B",
+          "C",
+          "A"
+        ],
+        "datasets": [
+          {
+            "label": "total_sales",
+            "data": [
+              19696537,
+              18525387,
+              18443092
+            ],
+            "backgroundColor": "#3498db",
+            "borderColor": "#3498db",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "maintainAspectRatio": false,
+        "plugins": {
+          "legend": {
+            "display": true,
+            "position": "top"
+          },
+          "tooltip": {
+            "enabled": true
+          },
+          "title": {
+            "display": true,
+            "text": "카테고리별 매출 분석해줘..."
+          }
+        },
+        "scales": {
+          "y": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "raw_data": [
+      {
+        "category": "B",
+        "total_sales": 19696537
+      },
+      {
+        "category": "C",
+        "total_sales": 18525387
+      },
+      {
+        "category": "A",
+        "total_sales": 18443092
+      }
+    ],
+    "description": "카테고리별 총 매출을 분석했습니다."
+  },
+  "chart_generated": true
+}

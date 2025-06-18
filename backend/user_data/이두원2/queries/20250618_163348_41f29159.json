@@ -1,0 +1,79 @@
+{
+  "id": "20250618_163348_41f29159",
+  "timestamp": "2025-06-18T16:33:48.624893",
+  "tab_id": "tab1",
+  "question": " 2024년 레이팅을 보여줘",
+  "response": {
+    "success": true,
+    "chart_request": 1,
+    "chart_config": {
+      "type": "bar",
+      "data": {
+        "labels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "datasets": [
+          {
+            "label": "avg_rating",
+            "data": [
+              4.233333333333333,
+              4.233333333333333,
+              4.333333333333333,
+              4.066666666666666
+            ],
+            "backgroundColor": "#3498db",
+            "borderColor": "#3498db",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "maintainAspectRatio": false,
+        "plugins": {
+          "legend": {
+            "display": true,
+            "position": "top"
+          },
+          "tooltip": {
+            "enabled": true
+          },
+          "title": {
+            "display": true,
+            "text": " 2024년 레이팅을 보여줘..."
+          }
+        },
+        "scales": {
+          "y": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "raw_data": [
+      {
+        "quarter": "Q1",
+        "avg_rating": 4.233333333333333
+      },
+      {
+        "quarter": "Q2",
+        "avg_rating": 4.233333333333333
+      },
+      {
+        "quarter": "Q3",
+        "avg_rating": 4.333333333333333
+      },
+      {
+        "quarter": "Q4",
+        "avg_rating": 4.066666666666666
+      }
+    ],
+    "description": "2024년 분기별 평균 레이팅을 분석했습니다.",
+    "sql_query": "SELECT quarter, AVG(rating) as avg_rating FROM tab1_data WHERE year = 2024 GROUP BY quarter ORDER BY quarter",
+    "chart_type": "bar"
+  },
+  "chart_generated": true
+}

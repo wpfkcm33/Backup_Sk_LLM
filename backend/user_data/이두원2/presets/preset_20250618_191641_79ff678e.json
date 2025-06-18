@@ -1,0 +1,108 @@
+{
+  "id": "preset_20250618_191641_79ff678e",
+  "name": "고객1",
+  "description": "",
+  "tab_id": "tab3",
+  "created_at": "2025-06-18T19:16:41.743725",
+  "updated_at": "2025-06-18T19:16:41.743730",
+  "grid_config": {
+    "layout": "grid-cols-2",
+    "charts": [
+      {
+        "position": 0,
+        "source": {
+          "type": "inline_data",
+          "chart_data": {
+            "id": "tab3_chart_1",
+            "config": {
+              "type": "pie",
+              "data": {
+                "labels": [
+                  "광주",
+                  "대구",
+                  "대전",
+                  "부산",
+                  "서울",
+                  "인천"
+                ],
+                "datasets": [
+                  {
+                    "label": "count",
+                    "data": [
+                      3,
+                      3,
+                      3,
+                      4,
+                      4,
+                      3
+                    ],
+                    "backgroundColor": "#3498db",
+                    "borderColor": "#3498db",
+                    "borderWidth": 1
+                  }
+                ]
+              },
+              "options": {
+                "responsive": true,
+                "maintainAspectRatio": false,
+                "plugins": {
+                  "legend": {
+                    "display": true,
+                    "position": "top"
+                  },
+                  "tooltip": {
+                    "enabled": true
+                  },
+                  "title": {
+                    "display": true,
+                    "text": "지역별 고객 분포"
+                  }
+                },
+                "scales": {
+                  "y": {
+                    "beginAtZero": true
+                  }
+                }
+              }
+            },
+            "raw_data": [
+              {
+                "region": "광주",
+                "count": 3
+              },
+              {
+                "region": "대구",
+                "count": 3
+              },
+              {
+                "region": "대전",
+                "count": 3
+              },
+              {
+                "region": "부산",
+                "count": 4
+              },
+              {
+                "region": "서울",
+                "count": 4
+              },
+              {
+                "region": "인천",
+                "count": 3
+              }
+            ]
+          }
+        }
+      },
+      {
+        "position": 1,
+        "source": {
+          "type": "query_reference",
+          "query_id": "20250618_191630_e42ef464",
+          "title": "지역별 고객 분포를 차트로 보여줘",
+          "custom_options": {}
+        }
+      }
+    ]
+  }
+}

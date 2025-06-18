@@ -1,0 +1,110 @@
+[
+  {
+    "id": "20250618_154614_2b99a11f",
+    "timestamp": "2025-06-18T15:46:14.592915",
+    "question": "지역별 고객 분포",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_153621_52ad1fbe",
+    "timestamp": "2025-06-18T15:36:21.842167",
+    "question": "카테고리별 매출 분석",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_153612_30dd11fe",
+    "timestamp": "2025-06-18T15:36:12.509060",
+    "question": "상위 10개 제품",
+    "chart_generated": false
+  },
+  {
+    "id": "20250618_153559_93dbf6ca",
+    "timestamp": "2025-06-18T15:35:59.778419",
+    "question": "2024년 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_153548_0f1f043b",
+    "timestamp": "2025-06-18T15:35:48.226731",
+    "question": "카테고리별 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_153540_b05f0637",
+    "timestamp": "2025-06-18T15:35:40.710932",
+    "question": "2024년 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_152711_fca84b22",
+    "timestamp": "2025-06-18T15:27:11.045002",
+    "question": "상위 10개 제품의 재고 현황",
+    "chart_generated": false
+  },
+  {
+    "id": "20250618_151907_b9cf4c51",
+    "timestamp": "2025-06-18T15:19:07.758778",
+    "question": "2024년 레이팅을 보여줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_151840_091dd273",
+    "timestamp": "2025-06-18T15:18:40.555079",
+    "question": "2024년 레이팅을 보여줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_151805_beb71b1c",
+    "timestamp": "2025-06-18T15:18:05.914276",
+    "question": "2024년 레이팅을 보여줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_151758_58401f20",
+    "timestamp": "2025-06-18T15:17:58.177030",
+    "question": "카테고리별 매출 분석해줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_151749_e777cee6",
+    "timestamp": "2025-06-18T15:17:49.372483",
+    "question": "카테고리별 매출 분석해줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_151738_6341f019",
+    "timestamp": "2025-06-18T15:17:38.605270",
+    "question": "2024년 레이팅을 보여줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_151419_235bd60e",
+    "timestamp": "2025-06-18T15:14:19.184813",
+    "question": "상위 10개 제품의 재고 현황",
+    "chart_generated": false
+  },
+  {
+    "id": "20250618_151106_8495f045",
+    "timestamp": "2025-06-18T15:11:06.140189",
+    "question": "카테고리별 매출 분석해줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_151050_3390ba77",
+    "timestamp": "2025-06-18T15:10:50.456193",
+    "question": "2024년 레이팅을 보여줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_130324_be0b93cb",
+    "timestamp": "2025-06-18T13:03:24.947147",
+    "question": "카테고리별 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_130259_dec9d2e6",
+    "timestamp": "2025-06-18T13:02:59.393432",
+    "question": "2024년 매출",
+    "chart_generated": true
+  }
+]

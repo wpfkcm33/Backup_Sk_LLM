@@ -1,0 +1,115 @@
+{
+  "id": "20250618_191556_8c51174c",
+  "timestamp": "2025-06-18T19:15:56.530982",
+  "tab_id": "tab2",
+  "question": "상위 10개 제품의 재고 현황",
+  "response": {
+    "success": true,
+    "chart_request": 1,
+    "chart_config": {
+      "type": "bar",
+      "data": {
+        "labels": [
+          "제품 10",
+          "제품 9",
+          "제품 8",
+          "제품 7",
+          "제품 6",
+          "제품 5",
+          "제품 4",
+          "제품 3",
+          "제품 2",
+          "제품 1"
+        ],
+        "datasets": [
+          {
+            "label": "stock",
+            "data": [
+              550,
+              500,
+              450,
+              400,
+              350,
+              300,
+              250,
+              200,
+              150,
+              100
+            ],
+            "backgroundColor": "#3498db",
+            "borderColor": "#3498db",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "maintainAspectRatio": false,
+        "plugins": {
+          "legend": {
+            "display": true,
+            "position": "top"
+          },
+          "tooltip": {
+            "enabled": true
+          },
+          "title": {
+            "display": true,
+            "text": "상위 10개 제품의 재고 현황..."
+          }
+        },
+        "scales": {
+          "y": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "raw_data": [
+      {
+        "product_name": "제품 10",
+        "stock": 550
+      },
+      {
+        "product_name": "제품 9",
+        "stock": 500
+      },
+      {
+        "product_name": "제품 8",
+        "stock": 450
+      },
+      {
+        "product_name": "제품 7",
+        "stock": 400
+      },
+      {
+        "product_name": "제품 6",
+        "stock": 350
+      },
+      {
+        "product_name": "제품 5",
+        "stock": 300
+      },
+      {
+        "product_name": "제품 4",
+        "stock": 250
+      },
+      {
+        "product_name": "제품 3",
+        "stock": 200
+      },
+      {
+        "product_name": "제품 2",
+        "stock": 150
+      },
+      {
+        "product_name": "제품 1",
+        "stock": 100
+      }
+    ],
+    "description": "재고가 많은 상위 10개 제품을 표시했습니다.",
+    "sql_query": "SELECT product_name, stock FROM tab2_data ORDER BY stock DESC LIMIT 10",
+    "chart_type": "bar"
+  },
+  "chart_generated": true
+}

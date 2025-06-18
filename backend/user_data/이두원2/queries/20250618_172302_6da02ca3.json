@@ -1,0 +1,91 @@
+{
+  "id": "20250618_172302_6da02ca3",
+  "timestamp": "2025-06-18T17:23:02.788399",
+  "tab_id": "tab3",
+  "question": "지역별 고객 분포를 차트로 보여줘",
+  "response": {
+    "success": true,
+    "chart_request": 1,
+    "chart_config": {
+      "type": "bar",
+      "data": {
+        "labels": [
+          "대구",
+          "부산",
+          "대전",
+          "서울",
+          "광주",
+          "인천"
+        ],
+        "datasets": [
+          {
+            "label": "avg_satisfaction",
+            "data": [
+              4.3,
+              4.125,
+              4.1000000000000005,
+              4.025,
+              4.0,
+              3.9
+            ],
+            "backgroundColor": "#3498db",
+            "borderColor": "#3498db",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "maintainAspectRatio": false,
+        "plugins": {
+          "legend": {
+            "display": true,
+            "position": "top"
+          },
+          "tooltip": {
+            "enabled": true
+          },
+          "title": {
+            "display": true,
+            "text": "지역별 고객 분포를 차트로 보여줘..."
+          }
+        },
+        "scales": {
+          "y": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "raw_data": [
+      {
+        "region": "대구",
+        "avg_satisfaction": 4.3
+      },
+      {
+        "region": "부산",
+        "avg_satisfaction": 4.125
+      },
+      {
+        "region": "대전",
+        "avg_satisfaction": 4.1000000000000005
+      },
+      {
+        "region": "서울",
+        "avg_satisfaction": 4.025
+      },
+      {
+        "region": "광주",
+        "avg_satisfaction": 4.0
+      },
+      {
+        "region": "인천",
+        "avg_satisfaction": 3.9
+      }
+    ],
+    "description": "지역별 평균 만족도를 분석했습니다.",
+    "sql_query": "SELECT region, AVG(satisfaction_score) as avg_satisfaction FROM tab3_data GROUP BY region ORDER BY avg_satisfaction DESC",
+    "chart_type": "bar"
+  },
+  "chart_generated": true
+}

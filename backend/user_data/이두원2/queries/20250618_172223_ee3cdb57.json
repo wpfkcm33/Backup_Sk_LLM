@@ -1,0 +1,73 @@
+{
+  "id": "20250618_172223_ee3cdb57",
+  "timestamp": "2025-06-18T17:22:23.656278",
+  "tab_id": "tab1",
+  "question": "카테고리별 매출 분석해줘",
+  "response": {
+    "success": true,
+    "chart_request": 1,
+    "chart_config": {
+      "type": "doughnut",
+      "data": {
+        "labels": [
+          "A",
+          "B",
+          "C"
+        ],
+        "datasets": [
+          {
+            "label": "total_sales",
+            "data": [
+              18260616,
+              18183866,
+              18153147
+            ],
+            "backgroundColor": "#3498db",
+            "borderColor": "#3498db",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "maintainAspectRatio": false,
+        "plugins": {
+          "legend": {
+            "display": true,
+            "position": "top"
+          },
+          "tooltip": {
+            "enabled": true
+          },
+          "title": {
+            "display": true,
+            "text": "카테고리별 매출 분석해줘..."
+          }
+        },
+        "scales": {
+          "y": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "raw_data": [
+      {
+        "category": "A",
+        "total_sales": 18260616
+      },
+      {
+        "category": "B",
+        "total_sales": 18183866
+      },
+      {
+        "category": "C",
+        "total_sales": 18153147
+      }
+    ],
+    "description": "카테고리별 총 매출을 분석했습니다.",
+    "sql_query": "SELECT category, SUM(sales) as total_sales FROM tab1_data GROUP BY category ORDER BY total_sales DESC",
+    "chart_type": "doughnut"
+  },
+  "chart_generated": true
+}

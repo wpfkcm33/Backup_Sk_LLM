@@ -1,0 +1,158 @@
+{
+  "id": "preset_20250618_190118_b80c16ea",
+  "name": "12",
+  "description": "12",
+  "tab_id": "tab1",
+  "created_at": "2025-06-18T19:01:18.544480",
+  "updated_at": "2025-06-18T19:01:18.544486",
+  "grid_config": {
+    "layout": "grid-cols-2",
+    "charts": [
+      {
+        "position": 0,
+        "source": {
+          "type": "inline_data",
+          "chart_data": {
+            "id": "tab1_chart_1",
+            "config": {
+              "type": "line",
+              "data": {
+                "labels": [
+                  2022,
+                  2023,
+                  2024
+                ],
+                "datasets": [
+                  {
+                    "label": "rating",
+                    "data": [
+                      4.175,
+                      4.291666666666667,
+                      4.141666666666667
+                    ],
+                    "backgroundColor": "#3498db",
+                    "borderColor": "#3498db",
+                    "borderWidth": 1
+                  }
+                ]
+              },
+              "options": {
+                "responsive": true,
+                "maintainAspectRatio": false,
+                "plugins": {
+                  "legend": {
+                    "display": true,
+                    "position": "top"
+                  },
+                  "tooltip": {
+                    "enabled": true
+                  },
+                  "title": {
+                    "display": true,
+                    "text": "연도별 평균 레이팅 추이"
+                  }
+                },
+                "scales": {
+                  "y": {
+                    "beginAtZero": true
+                  }
+                }
+              }
+            },
+            "raw_data": [
+              {
+                "year": 2022,
+                "rating": 4.175
+              },
+              {
+                "year": 2023,
+                "rating": 4.291666666666667
+              },
+              {
+                "year": 2024,
+                "rating": 4.141666666666667
+              }
+            ]
+          }
+        }
+      },
+      {
+        "position": 1,
+        "source": {
+          "type": "query_reference",
+          "query_id": "20250618_190109_a4ce0551",
+          "title": "2024 매출",
+          "custom_options": {}
+        }
+      },
+      {
+        "position": 2,
+        "source": {
+          "type": "inline_data",
+          "chart_data": {
+            "id": "tab1_chart_2",
+            "config": {
+              "type": "doughnut",
+              "data": {
+                "labels": [
+                  "A",
+                  "B",
+                  "C"
+                ],
+                "datasets": [
+                  {
+                    "label": "sales",
+                    "data": [
+                      16308109,
+                      17204614,
+                      17139395
+                    ],
+                    "backgroundColor": "#3498db",
+                    "borderColor": "#3498db",
+                    "borderWidth": 1
+                  }
+                ]
+              },
+              "options": {
+                "responsive": true,
+                "maintainAspectRatio": false,
+                "plugins": {
+                  "legend": {
+                    "display": true,
+                    "position": "top"
+                  },
+                  "tooltip": {
+                    "enabled": true
+                  },
+                  "title": {
+                    "display": true,
+                    "text": "카테고리별 총 매출"
+                  }
+                },
+                "scales": {
+                  "y": {
+                    "beginAtZero": true
+                  }
+                }
+              }
+            },
+            "raw_data": [
+              {
+                "category": "A",
+                "sales": 16308109
+              },
+              {
+                "category": "B",
+                "sales": 17204614
+              },
+              {
+                "category": "C",
+                "sales": 17139395
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "20250618_191630_e42ef464",
+    "timestamp": "2025-06-18T19:16:30.576720",
+    "question": "지역별 고객 분포를 차트로 보여줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_191556_8c51174c",
+    "timestamp": "2025-06-18T19:15:56.530982",
+    "question": "상위 10개 제품의 재고 현황",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_190109_a4ce0551",
+    "timestamp": "2025-06-18T19:01:09.519289",
+    "question": "2024 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_185624_561ccced",
+    "timestamp": "2025-06-18T18:56:24.849957",
+    "question": "2024년 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_185307_9c3a0670",
+    "timestamp": "2025-06-18T18:53:07.392926",
+    "question": "2024년 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_184958_2efcd4b5",
+    "timestamp": "2025-06-18T18:49:58.855275",
+    "question": "2024년 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_184738_6499040e",
+    "timestamp": "2025-06-18T18:47:38.641155",
+    "question": "2024년 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_181954_b4eb76de",
+    "timestamp": "2025-06-18T18:19:54.462302",
+    "question": "2024년 매출",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_172302_6da02ca3",
+    "timestamp": "2025-06-18T17:23:02.788399",
+    "question": "지역별 고객 분포를 차트로 보여줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_172223_ee3cdb57",
+    "timestamp": "2025-06-18T17:22:23.656278",
+    "question": "카테고리별 매출 분석해줘",
+    "chart_generated": true
+  },
+  {
+    "id": "20250618_163348_41f29159",
+    "timestamp": "2025-06-18T16:33:48.624893",
+    "question": " 2024년 레이팅을 보여줘",
+    "chart_generated": true
+  }
+]

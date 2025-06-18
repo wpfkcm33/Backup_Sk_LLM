@@ -1,0 +1,12 @@
+{
+  "id": "20250618_152711_fca84b22",
+  "timestamp": "2025-06-18T15:27:11.045002",
+  "tab_id": "tab1",
+  "question": "상위 10개 제품의 재고 현황",
+  "response": {
+    "success": true,
+    "chart_request": 0,
+    "description": "요청하신 분석을 수행했습니다."
+  },
+  "chart_generated": false
+}

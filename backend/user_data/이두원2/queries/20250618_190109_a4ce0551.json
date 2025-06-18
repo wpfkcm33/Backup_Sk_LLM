@@ -1,0 +1,79 @@
+{
+  "id": "20250618_190109_a4ce0551",
+  "timestamp": "2025-06-18T19:01:09.519289",
+  "tab_id": "tab1",
+  "question": "2024 매출",
+  "response": {
+    "success": true,
+    "chart_request": 1,
+    "chart_config": {
+      "type": "line",
+      "data": {
+        "labels": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4"
+        ],
+        "datasets": [
+          {
+            "label": "total_sales",
+            "data": [
+              3377280,
+              3790869,
+              4266728,
+              3816610
+            ],
+            "backgroundColor": "#3498db",
+            "borderColor": "#3498db",
+            "borderWidth": 1
+          }
+        ]
+      },
+      "options": {
+        "responsive": true,
+        "maintainAspectRatio": false,
+        "plugins": {
+          "legend": {
+            "display": true,
+            "position": "top"
+          },
+          "tooltip": {
+            "enabled": true
+          },
+          "title": {
+            "display": true,
+            "text": "2024 매출..."
+          }
+        },
+        "scales": {
+          "y": {
+            "beginAtZero": true
+          }
+        }
+      }
+    },
+    "raw_data": [
+      {
+        "quarter": "Q1",
+        "total_sales": 3377280
+      },
+      {
+        "quarter": "Q2",
+        "total_sales": 3790869
+      },
+      {
+        "quarter": "Q3",
+        "total_sales": 4266728
+      },
+      {
+        "quarter": "Q4",
+        "total_sales": 3816610
+      }
+    ],
+    "description": "2024년 분기별 총 매출을 분석했습니다.",
+    "sql_query": "SELECT quarter, SUM(sales) as total_sales FROM tab1_data WHERE year = 2024 GROUP BY quarter ORDER BY quarter",
+    "chart_type": "line"
+  },
+  "chart_generated": true
+}

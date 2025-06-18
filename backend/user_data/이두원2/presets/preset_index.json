@@ -1,0 +1,32 @@
+{
+  "presets": [
+    {
+      "id": "preset_20250618_191641_79ff678e",
+      "name": "고객1",
+      "description": "",
+      "tab_id": "tab3",
+      "chart_count": 2,
+      "created_at": "2025-06-18T19:16:41.743725",
+      "updated_at": "2025-06-18T19:16:41.743730"
+    },
+    {
+      "id": "preset_20250618_191605_8d970806",
+      "name": "재고1",
+      "description": "",
+      "tab_id": "tab2",
+      "chart_count": 2,
+      "created_at": "2025-06-18T19:16:05.817873",
+      "updated_at": "2025-06-18T19:16:05.817880"
+    },
+    {
+      "id": "preset_20250618_190118_b80c16ea",
+      "name": "12",
+      "description": "12",
+      "tab_id": "tab1",
+      "chart_count": 3,
+      "created_at": "2025-06-18T19:01:18.544480",
+      "updated_at": "2025-06-18T19:01:18.544486"
+    }
+  ],
+  "last_updated": "2025-06-18T19:16:41.744102"
+}
